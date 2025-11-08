@@ -804,6 +804,47 @@ footer {
     padding: 20px;
   }
 }
+.thank-you {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 100px auto;
+  border: 4px solid #d4af37;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+}
+
+.thank-you h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.thank-you .btn {
+  background-color: #d4af37;
+  color: #0b1a3c;
+  padding: 14px 30px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thank-you .btn:hover {
+  background-color: #c19e3f;
+  box-shadow: 0 0 10px #d4af37;
+}
+
+
+
 /* Hamburger Menu */
 .hamburger {
   display: none;
@@ -1097,42 +1138,3 @@ footer {
     transform: translateY(0);
   }
 }
-.thank-you {
-  padding: 100px 20px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  max-width: 800px;
-  margin: 100px auto;
-  border: 4px solid #d4af37;
-  border-radius: 16px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-}
-
-.thank-you h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3em;
-  color: #d4af37;
-  margin-bottom: 20px;
-}
-
-.thank-you p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
-}
-
-.thank-you .btn {
-  background-color: #d4af37;
-  color: #0b1a3c;
-  padding: 14px 30px;
-  font-weight: bold;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.thank-you .btn:hover {
-  background-color: #c19e3f;
-  box-shadow: 0 0 10px #d4af37;
-}
-
