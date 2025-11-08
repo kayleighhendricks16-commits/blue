@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Opulence</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header with logo left, title and nav centered -->
+  <header class="split-header">
+  <div class="logo-left">
+    <img src="images/logo.png" alt="Blue Opulence Logo" class="logo" />
+  </div>
+  <div class="header-center">
+    <h1 class="site-title">Blue Opulence</h1>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h2>Luxury Beauty, Tailored to You</h2>
+    <p>Indulge in premium treatments that elevate your glow and confidence.</p>
+    <a href="https://wa.me/27721234567?text=Hi%20Blue%20Opulence%2C%20I%20would%20like%20to%20book%20a%20treatment" class="btn" target="_blank">Book Now</a>
+
+  </section>
+
+  <!-- Services -->
+  <section class="service-links">
+    <h3>Explore Our Services</h3>
+    <div class="service-grid">
+      <a href="services.html#nails"><img src="images/nails.avif" alt="Nails" class="fade-in" /><span class="service-label">Nails</span></a>
+      <a href="services.html#facials"><img src="images/facials.jpg" alt="Facials" class="fade-in" /><span class="service-label">Facials</span></a>
+      <a href="services.html#brows"><img src="images/brows.jpg" alt="Brows" class="fade-in" /><span class="service-label">Brows</span></a>
+      <a href="services.html#lashes"><img src="images/lashes.avif" alt="Lashes" class="fade-in" /><span class="service-label">Lashes</span></a>
+      <a href="services.html#pedicure"><img src="images/pedicure.avif" alt="Pedicure" class="fade-in" /><span class="service-label">Pedicure</span></a>
+      <a href="services.html#waxing"><img src="images/waxing.avif" alt="Waxing" class="fade-in" /><span class="service-label">Waxing</span></a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h3>Client Love</h3>
+    <div class="testimonial-carousel">
+      <div class="testimonial-group active">
+        <div class="testimonial-card">
+          <p>"Blue Opulence is my happy place. The attention to detail and the luxury vibe are unmatched."</p>
+          <span>— Sarah M.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"I always leave feeling refreshed and beautiful. The team is so warm and professional."</p>
+          <span>— Bella K.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"From nails to facials, everything is flawless. I won't go anywhere else."</p>
+          <span>— Kayla R.</span>
+        </div>
+      </div>
+      <div class="testimonial-group">
+        <div class="testimonial-card">
+          <p>"The ambiance is pure luxury. I feel pampered from the moment I walk in."</p>
+          <span>— Blair S.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"Professional, elegant, and always on time. My brows have never looked better."</p>
+          <span>— Ayra P.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"The booking process is seamless and the treatments are divine. Highly recommend!"</p>
+          <span>— Serena T.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Find Us Section -->
+  <section class="location">
+    <h3>Find Us</h3>
+    <div class="location-grid">
+      <div class="contact-mini">
+        <h4>Contact Details</h4>
+        <p><strong>Address:</strong><br>12 Senderwood Drive<br>Senderwood, Gauteng</p>
+        <p><strong>Phone:</strong><br><a href="tel:+27721234567">+27 72 123 4567</a></p>
+        <p><strong>WhatsApp:</strong><br><a href="https://wa.me/27721234567" target="_blank">Message Us</a></p>
+        <p><strong>Email:</strong><br><a href="mailto:info@blueopulence.co.za">info@blueopulence.co.za</a></p>
+        <div class="social-icons">
+          <p><strong>Follow Us:</strong></p>
+          <a href="https://www.instagram.com/blueopulence" target="_blank" class="social-link">
+            <img src="images/instagram_icon.png" alt="Instagram" class="social-icon" />
+            <span>@blueopulence</span>
+          </a>
+          <a href="https://www.facebook.com/blueopulence" target="_blank" class="social-link">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon" />
+            <span>@blueopulence</span>
+          </a>
+         
+        </div>
+      </div>
+	  
+      <div class="location-map">
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28651.207220283468!2d28.12214!3d-26.151070000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513ba5916b989%3A0xbbf2052a42ff68c2!2sThe%20Neighbourhood%20Square!5e0!3m2!1sen!2sza!4v1762545819189!5m2!1sen!2sza"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Blue Opulence | Designed by Kayleigh</p>
+  </footer>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+  <!-- Testimonial Script -->
+  <script>
+    let currentGroup = 0;
+    const groups = document.querySelectorAll('.testimonial-group');
+
+    function rotateTestimonials() {
+      groups.forEach((group, index) => {
+        group.classList.remove('active');
+        if (index === currentGroup) {
+          group.classList.add('active');
+        }
+      });
+      currentGroup = (currentGroup + 1) % groups.length;
+    }
+
+    setInterval(rotateTestimonials, 5000);
+  </script>
+  
+ 
+
+
+<!-- Join the Blush Society Pop-up -->
+<div id="popup" class="popup-overlay">
+  <div class="popup-content">
+    <span class="popup-close" onclick="closePopup()">×</span>
+    <h2>Join the Blush Society</h2>
+    <p>Be the first to know about exclusive offers, beauty tips, and VIP treatments.</p>
+    <a href="https://chat.whatsapp.com/ABC123xyz456" class="popup-btn" target="_blank">Join Our WhatsApp Group</a>
+  </div>
+</div>
+
+<script>
+  window.onload = function () {
+    document.getElementById("popup").style.display = "flex";
+  };
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+</script>
+
+
+
+<!-- WhatsApp Chat Box -->
+<div class="whatsapp-widget">
+  <div class="whatsapp-toggle" onclick="toggleWhatsApp()">
+    <img src="images/whatsapp.webp" alt="WhatsApp Icon" />
+  </div>
+  <div class="whatsapp-box" id="whatsappBox">
+    <div class="whatsapp-header">
+      <h4>Chat with Blue Opulence</h4>
+      <span class="whatsapp-close" onclick="toggleWhatsApp()">×</span>
+    </div>
+    <div class="whatsapp-body">
+      <p>Hi there! 👋 How can we help you today?</p>
+      <textarea id="whatsappMessage" placeholder="Type your message..."></textarea>
+      <button onclick="sendWhatsApp()">Send via WhatsApp</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleWhatsApp() {
+    const box = document.getElementById("whatsappBox");
+    box.classList.toggle("show");
+  }
+
+  function sendWhatsApp() {
+    const message = document.getElementById("whatsappMessage").value;
+    const encoded = encodeURIComponent(message || "Hi! I'd like to book a treatment.");
+    window.open(`https://wa.me/27721234567?text=${encoded}`, "_blank");
+  }
+</script>
+
+
+</body>
+</html>
+
+      

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | Blue Opulence</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header (same as index) -->
+  <header class="split-header">
+  <div class="logo-left">
+    <img src="images/logo.png" alt="Blue Opulence Logo" class="logo" />
+  </div>
+  <div class="header-center">
+    <h1 class="site-title">Blue Opulence</h1>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Signature Treatments</h2>
+
+    <div class="service-section fade-in" id="nails">
+      <h3>Nails</h3>
+      <ul>
+        <li>Gel Overlay <span class="price">R250</span></li>
+        <li>Full Set Acrylic <span class="price">R300</span></li>
+        <li>Gel Polish <span class="price">R180</span></li>
+      </ul>
+    </div>
+
+    <div class="service-section fade-in" id="facials">
+      <h3>Facials</h3>
+      <ul>
+        <li>Hydrating Facial <span class="price">R350</span></li>
+        <li>Anti-Aging Facial <span class="price">R400</span></li>
+        <li>Deep Cleanse <span class="price">R320</span></li>
+      </ul>
+    </div>
+
+    <div class="service-section fade-in" id="brows">
+      <h3>Brows</h3>
+      <ul>
+        <li>Brow Shaping <span class="price">R120</span></li>
+        <li>Lash Tint <span class="price">R150</span></li>
+        <li>Brow Lamination <span class="price">R280</span></li>
+      </ul>
+    </div>
+
+    <div class="service-section fade-in" id="lashes">
+      <h3>Lashes</h3>
+      <ul>
+        <li>Classic Set <span class="price">R450</span></li>
+        <li>Hybrid Set <span class="price">R500</span></li>
+        <li>Volume Set <span class="price">R550</span></li>
+      </ul>
+    </div>
+
+    <div class="service-section fade-in" id="pedicure">
+      <h3>Pedicure</h3>
+      <ul>
+        <li>Classic Pedicure <span class="price">R300</span></li>
+        <li>Gel Pedicure <span class="price">R350</span></li>
+        <li>Deluxe Spa Pedi <span class="price">R400</span></li>
+      </ul>
+    </div>
+
+    <div class="service-section fade-in" id="waxing">
+      <h3>Waxing</h3>
+      <ul>
+        <li>Underarms <span class="price">R120</span></li>
+        <li>Full Legs <span class="price">R250</span></li>
+        <li>Bikini Line <span class="price">R180</span></li>
+      </ul>
+    </div>
+  </section>
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Blue Opulence | Designed by Kayleigh</p>
+  </footer>
+</body>
+</html>

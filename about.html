@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Blue Opulence</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header (same as index) -->
+  <header class="split-header">
+  <div class="logo-left">
+    <img src="images/logo.png" alt="Blue Opulence Logo" class="logo" />
+  </div>
+  <div class="header-center">
+    <h1 class="site-title">Blue Opulence</h1>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Our Story</h2>
+    <div class="about-content">
+      <div class="about-text fade-in">
+        <p>
+          At <strong>Blue Opulence</strong>, we believe beauty is a ritual — a moment of self-love, elegance, and empowerment. Founded with a passion for premium care and personalized service, our studio is a sanctuary where luxury meets warmth.
+        </p>
+        <p>
+          From flawless nails to rejuvenating facials, every treatment is designed to elevate your natural glow. Our team of expert therapists and artists are dedicated to delivering excellence, using only the finest products and techniques.
+        </p>
+        <p>
+          Whether you're preparing for a special occasion or indulging in a well-deserved escape, Blue Opulence is your destination for timeless beauty and radiant confidence.
+        </p>
+      </div>
+      <div class="about-image fade-in">
+        <img src="images/inside.avif" alt="Inside Blue Opulence" />
+      </div>
+    </div>
+  </section>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Blue Opulence | Designed by Kayleigh</p>
+  </footer>
+</body>
+</html>

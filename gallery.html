@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Blue Opulence</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header (same as index) -->
+  <header class="split-header">
+  <div class="logo-left">
+    <img src="images/logo.png" alt="Blue Opulence Logo" class="logo" />
+  </div>
+  <div class="header-center">
+    <h1 class="site-title">Blue Opulence</h1>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery-grid">
+      <img src="images/facialglow.avif" alt="Luxury Nails" class="fade-in" />
+      <img src="images/prettynails.avif" alt="Facial Glow" class="fade-in" />
+      <img src="images/goodbrows.avif" alt="Brow Perfection" class="fade-in" />
+      <img src="images/lashess.avif" alt="Lash Lift" class="fade-in" />
+      <img src="images/toess.avif" alt="Pedicure Bliss" class="fade-in" />
+      <img src="images/legs.avif" alt="Waxing Room" class="fade-in" />
+    </div>
+  </section>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Blue Opulence | Designed by Kayleigh</p>
+  </footer>
+</body>
+</html>
